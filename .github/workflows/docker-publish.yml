@@ -37,7 +37,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            alphabet5/squid:latest,
-            alphabet5/squid:${{ steps.tags.outputs.version }},
-            alphabet5/squid:${{ steps.tags.outputs.major }},
-            alphabet5/squid:${{ steps.tags.outputs.minor }}
+            cybertrolserviceaccount/squid:latest,
+            cybertrolserviceaccount/squid:${{ steps.tags.outputs.version }},
+            cybertrolserviceaccount/squid:${{ steps.tags.outputs.major }},
+            cybertrolserviceaccount:${{ steps.tags.outputs.minor }}
