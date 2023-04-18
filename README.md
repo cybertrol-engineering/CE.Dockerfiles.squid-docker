@@ -44,3 +44,5 @@ docker build .
 ### 0.0.3
 
 - Changed dockerfile and default config to write to stdout.
+
+-
